@@ -1,0 +1,19 @@
+{
+  "name": "datavized-code-style",
+  "version": "0.0.1",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datavized/code-style.git"
+  },
+  "author": "Brian Chirls (brian@datavized.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datavized/code-style/issues"
+  },
+  "homepage": "https://github.com/datavized/code-style#readme"
+}
