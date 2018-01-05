@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/datavized/code-style/issues"
   },
-  "homepage": "https://github.com/datavized/code-style#readme"
+  "homepage": "https://github.com/datavized/code-style#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-crockford": "^2.0.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-crockford": "^2.0.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
