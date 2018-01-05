@@ -29,7 +29,6 @@ module.exports = {
 		"no-new": 2,
 		"valid-typeof": 2,
 		"quotes": [ 2, "single" ],
-		"no-shadow": 0,
 		"no-extra-parens": 0,
 		"no-undef": 2,
 		"no-unused-vars": 2,
