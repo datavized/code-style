@@ -29,7 +29,7 @@ module.exports = {
 		"no-new": 2,
 		"valid-typeof": 2,
 		"quotes": [ 2, "single" ],
-		"no-extra-parens": 0,
+		"no-extra-parens": 1,
 		"no-undef": 2,
 		"no-unused-vars": 2,
 		"indent": [ "error", "tab", { "SwitchCase": 1 } ],

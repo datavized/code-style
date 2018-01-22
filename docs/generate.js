@@ -1,6 +1,7 @@
 const fs = require('fs');
-const Linter = require('eslint').Linter;
-const linter = new Linter();
+const CLIEngine = require('eslint').CLIEngine;
+const rulesDefinition = require(__dirname + '/../.eslintrc.js');
+const cli = new CLIEngine(rulesDefinition);
 
 const categories = new Map();
 
@@ -25,8 +26,15 @@ fs.readFile(__dirname + '/header.md', (err, data) => {
 	finish();
 });
 
-const rules = linter.getRules();
-rules.forEach((rule, key) => {
+const config = cli.config.getConfig();
+const rules = config.rules;
+const allRules = cli.getRules();
+Object.keys(rules).forEach(key => {
+	const params = rules[key];
+	if (params === 0 || params[0] === 'off') {
+		return;
+	}
+	const rule = allRules.get(key);
 	const { docs } = rule.meta;
 	const { category } = docs;
 	if (!categories.has(category)) {
@@ -35,8 +43,12 @@ rules.forEach((rule, key) => {
 	categories.get(category).push({ key, docs });
 });
 
-categories.forEach((rules, name) => {
-	rest += `\n### ${name}\nRule|Description\n----|----\n`;
-	rest += rules.map(rule => `[${rule.key}](https://eslint.org/docs/rules/${rule.key}) | ${rule.docs.description}`).join('\n');
+categories.forEach((ruleDefs, name) => {
+	rest += `\n### ${name}\nRule|Value|Description\n----|----|----\n`;
+	rest += ruleDefs.map(rule => {
+		const { key } = rule;
+		const val = Array.isArray(rules[key]) && rules[key].length > 1 && typeof rules[key][1] !== 'object' ? rules[key][1] : '';
+		return `[${key}](https://eslint.org/docs/rules/${key})|${val}|${rule.docs.description}`;
+	}).join('\n');
 });
 finish();

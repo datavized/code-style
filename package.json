@@ -17,14 +17,16 @@
     "url": "https://github.com/datavized/code-style/issues"
   },
   "homepage": "https://github.com/datavized/code-style#readme",
+  "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint-config-crockford": "^2.0.0"
+  },
   "devDependencies": {
     "eslint": "^4.16.0",
-    "eslint-config-crockford": "^2.0.0",
     "eslint-plugin-import": "^2.8.0"
   },
   "peerDependencies": {
     "eslint": "^4.14.0",
-    "eslint-config-crockford": "^2.0.0",
     "eslint-plugin-import": "^2.8.0"
   }
 }
