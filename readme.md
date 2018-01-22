@@ -14,7 +14,7 @@ Our code style is based on Crockfor's, with a few modifications. We use
 
 ### Stylistic Issues
 Rule|Value|Description
-----|----
+----|----|----
 [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing)||enforce consistent spacing inside array brackets
 [brace-style](https://eslint.org/docs/rules/brace-style)||enforce consistent brace style for blocks
 [comma-dangle](https://eslint.org/docs/rules/comma-dangle)||require or disallow trailing commas
@@ -32,7 +32,7 @@ Rule|Value|Description
 [semi](https://eslint.org/docs/rules/semi)||require or disallow semicolons instead of ASI
 [semi-spacing](https://eslint.org/docs/rules/semi-spacing)||enforce consistent spacing before and after semicolons
 [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks)||enforce consistent spacing before blocks
-[space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)|[object Object]|enforce consistent spacing before `function` definition opening parenthesis
+[space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)||enforce consistent spacing before `function` definition opening parenthesis
 [space-in-parens](https://eslint.org/docs/rules/space-in-parens)||enforce consistent spacing inside parentheses
 [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)||require spacing around infix operators
 [space-unary-ops](https://eslint.org/docs/rules/space-unary-ops)||enforce consistent spacing before or after unary operators
@@ -44,7 +44,7 @@ Rule|Value|Description
 [one-var-declaration-per-line](https://eslint.org/docs/rules/one-var-declaration-per-line)||require or disallow newlines around variable declarations
 ### Best Practices
 Rule|Value|Description
-----|----
+----|----|----
 [curly](https://eslint.org/docs/rules/curly)||enforce consistent brace style for all control statements
 [dot-notation](https://eslint.org/docs/rules/dot-notation)||enforce dot notation whenever possible
 [eqeqeq](https://eslint.org/docs/rules/eqeqeq)||require the use of `===` and `!==`
@@ -68,21 +68,22 @@ Rule|Value|Description
 [require-await](https://eslint.org/docs/rules/require-await)||disallow async functions which have no `await` expression
 ### Possible Errors
 Rule|Value|Description
-----|----
-[no-empty](https://eslint.org/docs/rules/no-empty)|[object Object]|disallow empty block statements
+----|----|----
+[no-empty](https://eslint.org/docs/rules/no-empty)||disallow empty block statements
 [no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)||disallow irregular whitespace outside of strings and comments
 [valid-typeof](https://eslint.org/docs/rules/valid-typeof)||enforce comparing `typeof` expressions against valid strings
+[no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)||disallow unnecessary parentheses
 ### Variables
 Rule|Value|Description
-----|----
+----|----|----
 [no-undef](https://eslint.org/docs/rules/no-undef)||disallow the use of undeclared variables unless mentioned in `/*global */` comments
-[no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)|[object Object]|disallow the use of variables before they are defined
+[no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)||disallow the use of variables before they are defined
 [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)||disallow unused variables
 ### Strict Mode
 Rule|Value|Description
-----|----
+----|----|----
 [strict](https://eslint.org/docs/rules/strict)||require or disallow strict mode directives
 ### ECMAScript 6
 Rule|Value|Description
-----|----
+----|----|----
 [prefer-const](https://eslint.org/docs/rules/prefer-const)||require `const` declarations for variables that are never reassigned after declared
