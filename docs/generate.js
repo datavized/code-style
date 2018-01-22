@@ -36,7 +36,7 @@ rules.forEach((rule, key) => {
 });
 
 categories.forEach((rules, name) => {
-	rest += `\n### ${name}\n`;
+	rest += `\n### ${name}\nRule|Description\n----|----\n`;
 	rest += rules.map(rule => `[${rule.key}](https://eslint.org/docs/rules/${rule.key}) | ${rule.docs.description}`).join('\n');
 });
 finish();

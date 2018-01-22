@@ -1,18 +1,20 @@
 # Datavized Code Style
 
-Our code style is based on Crockford's code style recommendation, with a few modifications. We use the latest version of ECMAScript, transpiled by Babel.
-
-See [this guide](http://babeljs.io/learn-es2015/) for many of the recently added language features.
+Our code style is based on Crockfor's, with a few modifications. We use 
 
 ## The Basics
 - Indent with tabs, not spaces
 - Always end statements with semicolons
 - Conditionals and loops ("if", "while", "for") always use curly braces
 - Never use `var`. Use `const` wherever possible and `let` only if necessary.
+- Always use "strict equal" (`===` and `!==`, not `==` or `!=`)
+- Define variables in scope, never global.
 
 ## The Rules
 
 ### Best Practices
+Rule|Description
+----|----
 [accessor-pairs](https://eslint.org/docs/rules/accessor-pairs) | enforce getter and setter pairs in objects
 [array-callback-return](https://eslint.org/docs/rules/array-callback-return) | enforce `return` statements in callbacks of array methods
 [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var) | enforce the use of variables within the scope they are defined
@@ -85,6 +87,8 @@ See [this guide](http://babeljs.io/learn-es2015/) for many of the recently added
 [wrap-iife](https://eslint.org/docs/rules/wrap-iife) | require parentheses around immediate `function` invocations
 [yoda](https://eslint.org/docs/rules/yoda) | require or disallow "Yoda" conditions
 ### Stylistic Issues
+Rule|Description
+----|----
 [array-bracket-newline](https://eslint.org/docs/rules/array-bracket-newline) | enforce linebreaks after opening and before closing array brackets
 [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing) | enforce consistent spacing inside array brackets
 [array-element-newline](https://eslint.org/docs/rules/array-element-newline) | enforce line breaks after each array element
@@ -181,6 +185,8 @@ See [this guide](http://babeljs.io/learn-es2015/) for many of the recently added
 [unicode-bom](https://eslint.org/docs/rules/unicode-bom) | require or disallow Unicode byte order mark (BOM)
 [wrap-regex](https://eslint.org/docs/rules/wrap-regex) | require parenthesis around regex literals
 ### ECMAScript 6
+Rule|Description
+----|----
 [arrow-body-style](https://eslint.org/docs/rules/arrow-body-style) | require braces around arrow function bodies
 [arrow-parens](https://eslint.org/docs/rules/arrow-parens) | require parentheses around arrow function arguments
 [arrow-spacing](https://eslint.org/docs/rules/arrow-spacing) | enforce consistent spacing before and after the arrow in arrow functions
@@ -214,6 +220,8 @@ See [this guide](http://babeljs.io/learn-es2015/) for many of the recently added
 [template-curly-spacing](https://eslint.org/docs/rules/template-curly-spacing) | require or disallow spacing around embedded expressions of template strings
 [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing) | require or disallow spacing around the `*` in `yield*` expressions
 ### Node.js and CommonJS
+Rule|Description
+----|----
 [callback-return](https://eslint.org/docs/rules/callback-return) | require `return` statements after callbacks
 [global-require](https://eslint.org/docs/rules/global-require) | require `require()` calls to be placed at top-level module scope
 [handle-callback-err](https://eslint.org/docs/rules/handle-callback-err) | require error handling in callbacks
@@ -226,6 +234,8 @@ See [this guide](http://babeljs.io/learn-es2015/) for many of the recently added
 [no-restricted-modules](https://eslint.org/docs/rules/no-restricted-modules) | disallow specified modules when loaded by `require`
 [no-sync](https://eslint.org/docs/rules/no-sync) | disallow synchronous methods
 ### Possible Errors
+Rule|Description
+----|----
 [for-direction](https://eslint.org/docs/rules/for-direction) | enforce "for" loop update clause moving the counter in the right direction.
 [getter-return](https://eslint.org/docs/rules/getter-return) | enforce `return` statements in getters
 [no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop) | disallow `await` inside of loops
@@ -262,6 +272,8 @@ See [this guide](http://babeljs.io/learn-es2015/) for many of the recently added
 [valid-jsdoc](https://eslint.org/docs/rules/valid-jsdoc) | enforce valid JSDoc comments
 [valid-typeof](https://eslint.org/docs/rules/valid-typeof) | enforce comparing `typeof` expressions against valid strings
 ### Variables
+Rule|Description
+----|----
 [init-declarations](https://eslint.org/docs/rules/init-declarations) | require or disallow initialization in variable declarations
 [no-catch-shadow](https://eslint.org/docs/rules/no-catch-shadow) | disallow `catch` clause parameters from shadowing variables in the outer scope
 [no-delete-var](https://eslint.org/docs/rules/no-delete-var) | disallow deleting variables
@@ -275,4 +287,6 @@ See [this guide](http://babeljs.io/learn-es2015/) for many of the recently added
 [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars) | disallow unused variables
 [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) | disallow the use of variables before they are defined
 ### Strict Mode
+Rule|Description
+----|----
 [strict](https://eslint.org/docs/rules/strict) | require or disallow strict mode directives
