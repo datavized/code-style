@@ -10,6 +10,7 @@
 		"allowImportExportEverywhere": true
 	},
 	"rules": {
+		"no-array-constructor": 2,
 		"block-scoped-var": 2,
 		"camelcase": 2,
 		"curly": 2,
