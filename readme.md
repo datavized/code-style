@@ -36,12 +36,12 @@ Rule|Value|Description
 [space-in-parens](https://eslint.org/docs/rules/space-in-parens)||enforce consistent spacing inside parentheses
 [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)||require spacing around infix operators
 [space-unary-ops](https://eslint.org/docs/rules/space-unary-ops)||enforce consistent spacing before or after unary operators
-[no-bitwise](https://eslint.org/docs/rules/no-bitwise)||disallow bitwise operators
 [camelcase](https://eslint.org/docs/rules/camelcase)||enforce camelcase naming convention
-[max-params](https://eslint.org/docs/rules/max-params)|5|enforce a maximum number of parameters in function definitions
-[quotes](https://eslint.org/docs/rules/quotes)|single|enforce the consistent use of either backticks, double, or single quotes
 [linebreak-style](https://eslint.org/docs/rules/linebreak-style)|unix|enforce consistent linebreak style
+[max-params](https://eslint.org/docs/rules/max-params)|5|enforce a maximum number of parameters in function definitions
+[no-bitwise](https://eslint.org/docs/rules/no-bitwise)||disallow bitwise operators
 [one-var-declaration-per-line](https://eslint.org/docs/rules/one-var-declaration-per-line)||require or disallow newlines around variable declarations
+[quotes](https://eslint.org/docs/rules/quotes)|single|enforce the consistent use of either backticks, double, or single quotes
 ### Best Practices
 Rule|Value|Description
 ----|----|----
@@ -56,34 +56,34 @@ Rule|Value|Description
 [no-with](https://eslint.org/docs/rules/no-with)||disallow `with` statements
 [vars-on-top](https://eslint.org/docs/rules/vars-on-top)||require `var` declarations be placed at the top of their containing scope
 [wrap-iife](https://eslint.org/docs/rules/wrap-iife)|any|require parentheses around immediate `function` invocations
-[guard-for-in](https://eslint.org/docs/rules/guard-for-in)||require `for-in` loops to include an `if` statement
-[no-global-assign](https://eslint.org/docs/rules/no-global-assign)||disallow assignments to native objects or read-only global variables
-[no-extend-native](https://eslint.org/docs/rules/no-extend-native)||disallow extending native types
 [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var)||enforce the use of variables within the scope they are defined
-[no-iterator](https://eslint.org/docs/rules/no-iterator)||disallow the use of the `__iterator__` property
+[guard-for-in](https://eslint.org/docs/rules/guard-for-in)||require `for-in` loops to include an `if` statement
 [no-caller](https://eslint.org/docs/rules/no-caller)||disallow the use of `arguments.caller` or `arguments.callee`
-[no-new](https://eslint.org/docs/rules/no-new)||disallow `new` operators outside of assignments or comparisons
+[no-extend-native](https://eslint.org/docs/rules/no-extend-native)||disallow extending native types
+[no-global-assign](https://eslint.org/docs/rules/no-global-assign)||disallow assignments to native objects or read-only global variables
 [no-implicit-globals](https://eslint.org/docs/rules/no-implicit-globals)||disallow variable and `function` declarations in the global scope
+[no-iterator](https://eslint.org/docs/rules/no-iterator)||disallow the use of the `__iterator__` property
 [no-loop-func](https://eslint.org/docs/rules/no-loop-func)||disallow `function` declarations and expressions inside loop statements
+[no-new](https://eslint.org/docs/rules/no-new)||disallow `new` operators outside of assignments or comparisons
 [require-await](https://eslint.org/docs/rules/require-await)||disallow async functions which have no `await` expression
 ### Possible Errors
 Rule|Value|Description
 ----|----|----
 [no-empty](https://eslint.org/docs/rules/no-empty)||disallow empty block statements
+[no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)||disallow unnecessary parentheses
 [no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)||disallow irregular whitespace outside of strings and comments
 [valid-typeof](https://eslint.org/docs/rules/valid-typeof)||enforce comparing `typeof` expressions against valid strings
-[no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)||disallow unnecessary parentheses
 ### Variables
 Rule|Value|Description
 ----|----|----
 [no-undef](https://eslint.org/docs/rules/no-undef)||disallow the use of undeclared variables unless mentioned in `/*global */` comments
 [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)||disallow the use of variables before they are defined
 [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)||disallow unused variables
-### Strict Mode
-Rule|Value|Description
-----|----|----
-[strict](https://eslint.org/docs/rules/strict)||require or disallow strict mode directives
 ### ECMAScript 6
 Rule|Value|Description
 ----|----|----
 [prefer-const](https://eslint.org/docs/rules/prefer-const)||require `const` declarations for variables that are never reassigned after declared
+### Strict Mode
+Rule|Value|Description
+----|----|----
+[strict](https://eslint.org/docs/rules/strict)||require or disallow strict mode directives
