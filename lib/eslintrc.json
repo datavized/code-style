@@ -10,7 +10,6 @@
 		"allowImportExportEverywhere": true
 	},
 	"rules": {
-		"no-array-constructor": 2,
 		"block-scoped-var": 2,
 		"camelcase": 2,
 		"curly": 2,
@@ -21,6 +20,7 @@
 		"linebreak-style": [ "error", "unix" ],
 		"max-params": [ 2, 5 ],
 		"new-cap": 2,
+		"no-array-constructor": 2,
 		"no-bitwise": 2,
 		"no-caller": 2,
 		"no-extend-native": 2,
@@ -35,6 +35,7 @@
 		"no-undef": 2,
 		"no-unused-vars": 2,
 		"no-use-before-define": [ 2, { "functions": false } ],
+		"no-var": 2,
 		"one-var": [ 1, "never" ],
 		"one-var-declaration-per-line": 1,
 		"prefer-const": 1,

@@ -36,10 +36,10 @@ Rule|Value|Description
 [space-in-parens](https://eslint.org/docs/rules/space-in-parens)||enforce consistent spacing inside parentheses
 [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)||require spacing around infix operators
 [space-unary-ops](https://eslint.org/docs/rules/space-unary-ops)||enforce consistent spacing before or after unary operators
-[no-array-constructor](https://eslint.org/docs/rules/no-array-constructor)||disallow `Array` constructors
 [camelcase](https://eslint.org/docs/rules/camelcase)||enforce camelcase naming convention
 [linebreak-style](https://eslint.org/docs/rules/linebreak-style)|unix|enforce consistent linebreak style
 [max-params](https://eslint.org/docs/rules/max-params)|5|enforce a maximum number of parameters in function definitions
+[no-array-constructor](https://eslint.org/docs/rules/no-array-constructor)||disallow `Array` constructors
 [no-bitwise](https://eslint.org/docs/rules/no-bitwise)||disallow bitwise operators
 [one-var-declaration-per-line](https://eslint.org/docs/rules/one-var-declaration-per-line)||require or disallow newlines around variable declarations
 [quotes](https://eslint.org/docs/rules/quotes)|single|enforce the consistent use of either backticks, double, or single quotes
@@ -83,6 +83,7 @@ Rule|Value|Description
 ### ECMAScript 6
 Rule|Value|Description
 ----|----|----
+[no-var](https://eslint.org/docs/rules/no-var)||require `let` or `const` instead of `var`
 [prefer-const](https://eslint.org/docs/rules/prefer-const)||require `const` declarations for variables that are never reassigned after declared
 ### Strict Mode
 Rule|Value|Description
