@@ -1,6 +1,6 @@
 # Datavized Code Style
 
-Our code style is based on Crockfor's, with a few modifications. We use 
+Our code style is based on Crockford's, with a few modifications.
 
 ## The Basics
 - Indent with tabs, not spaces
