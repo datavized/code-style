@@ -27,6 +27,7 @@ Rule|Value|Description
 [dot-notation](https://eslint.org/docs/rules/dot-notation)||enforce dot notation whenever possible
 [eqeqeq](https://eslint.org/docs/rules/eqeqeq)||require the use of `===` and `!==`
 [guard-for-in](https://eslint.org/docs/rules/guard-for-in)||require `for-in` loops to include an `if` statement
+[max-classes-per-file](https://eslint.org/docs/rules/max-classes-per-file)||enforce a maximum number of classes per file
 [no-alert](https://eslint.org/docs/rules/no-alert)||disallow the use of `alert`, `confirm`, and `prompt`
 [no-caller](https://eslint.org/docs/rules/no-caller)||disallow the use of `arguments.caller` or `arguments.callee`
 [no-case-declarations](https://eslint.org/docs/rules/no-case-declarations)||disallow lexical declarations in case clauses
@@ -123,6 +124,7 @@ Rule|Value|Description
 [max-depth](https://eslint.org/docs/rules/max-depth)||enforce a maximum depth that blocks can be nested
 [max-len](https://eslint.org/docs/rules/max-len)||enforce a maximum line length
 [max-lines](https://eslint.org/docs/rules/max-lines)||enforce a maximum number of lines per file
+[max-lines-per-function](https://eslint.org/docs/rules/max-lines-per-function)||enforce a maximum number of line of code in a function
 [max-nested-callbacks](https://eslint.org/docs/rules/max-nested-callbacks)||enforce a maximum depth that callbacks can be nested
 [max-params](https://eslint.org/docs/rules/max-params)|5|enforce a maximum number of parameters in function definitions
 [max-statements](https://eslint.org/docs/rules/max-statements)||enforce a maximum number of statements allowed in function blocks
@@ -164,6 +166,7 @@ Rule|Value|Description
 [operator-linebreak](https://eslint.org/docs/rules/operator-linebreak)||enforce consistent linebreak style for operators
 [padded-blocks](https://eslint.org/docs/rules/padded-blocks)||require or disallow padding within blocks
 [padding-line-between-statements](https://eslint.org/docs/rules/padding-line-between-statements)||require or disallow padding lines between statements
+[prefer-object-spread](https://eslint.org/docs/rules/prefer-object-spread)||disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead.
 [quote-props](https://eslint.org/docs/rules/quote-props)||require quotes around object literal property names
 [quotes](https://eslint.org/docs/rules/quotes)|single|enforce the consistent use of either backticks, double, or single quotes
 [require-jsdoc](https://eslint.org/docs/rules/require-jsdoc)||require JSDoc comments
@@ -223,7 +226,7 @@ Rule|Value|Description
 [callback-return](https://eslint.org/docs/rules/callback-return)||require `return` statements after callbacks
 [global-require](https://eslint.org/docs/rules/global-require)||require `require()` calls to be placed at top-level module scope
 [handle-callback-err](https://eslint.org/docs/rules/handle-callback-err)||require error handling in callbacks
-[no-buffer-constructor](https://eslint.org/docs/rules/no-buffer-constructor)||disallow use of the Buffer() constructor
+[no-buffer-constructor](https://eslint.org/docs/rules/no-buffer-constructor)||disallow use of the `Buffer()` constructor
 [no-mixed-requires](https://eslint.org/docs/rules/no-mixed-requires)||disallow `require` calls to be mixed with regular variable declarations
 [no-new-require](https://eslint.org/docs/rules/no-new-require)||disallow `new` operators with calls to `require`
 [no-path-concat](https://eslint.org/docs/rules/no-path-concat)||disallow string concatenation with `__dirname` and `__filename`
