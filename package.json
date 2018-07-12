@@ -24,12 +24,12 @@
     "eslint-config-crockford": "^2.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.5",
-    "eslint": "^5.0.1",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.1.0",
     "eslint-plugin-import": "^2.13.0"
   },
   "peerDependencies": {
-    "eslint": "^4.16.0",
+    "eslint": "^5.1.0",
     "eslint-plugin-import": "^2.8.0"
   }
 }
