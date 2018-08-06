@@ -24,6 +24,7 @@
 		"max-params": [ 2, 5 ],
 		"new-cap": 2,
 		"no-array-constructor": 2,
+		"no-async-promise-executor": 2,
 		"no-bitwise": 2,
 		"no-caller": 2,
 		"no-console": 0,
@@ -35,6 +36,7 @@
 		"no-irregular-whitespace": 2,
 		"no-iterator": 2,
 		"no-loop-func": 2,
+		"no-misleading-character-class": 2,
 		"no-new": 2,
 		"no-plusplus": 0,
 		"no-undef": 2,
@@ -45,10 +47,13 @@
 		"one-var-declaration-per-line": 1,
 		"prefer-const": 1,
 		"quotes": [ 2, "single", { "allowTemplateLiterals": true } ],
+		"require-atomic-updates": 2,
 		"require-await": 2,
+		"require-unicode-regexp": 1,
 		"space-before-function-paren": [ "error", { "anonymous": "always", "named": "never", "asyncArrow": "always" } ],
 		"strict": 1,
 		"valid-typeof": 2,
 		"wrap-iife": [ 2, "any" ]
+
 	}
 }
