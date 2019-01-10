@@ -15,6 +15,7 @@
 	"rules": {
 		"block-scoped-var": 2,
 		"camelcase": 2,
+		"consistent-return": 1,
 		"curly": 2,
 		"eol-last": [ "off" ],
 		"eqeqeq": 2,

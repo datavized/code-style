@@ -47,6 +47,7 @@ Rule|Value|Description
 Rule|Value|Description
 ----|----|----
 [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var)||enforce the use of variables within the scope they are defined
+[consistent-return](https://eslint.org/docs/rules/consistent-return)||require `return` statements to either always or never specify values
 [curly](https://eslint.org/docs/rules/curly)||enforce consistent brace style for all control statements
 [dot-notation](https://eslint.org/docs/rules/dot-notation)||enforce dot notation whenever possible
 [eqeqeq](https://eslint.org/docs/rules/eqeqeq)||require the use of `===` and `!==`
