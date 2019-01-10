@@ -31,7 +31,7 @@ const rules = config.rules;
 const allRules = cli.getRules();
 Object.keys(rules).forEach(key => {
 	const params = rules[key];
-	if (params === 0 || params[0] === 'off') {
+	if (params === 0 || params === 'off' || params[0] === 0 || params[0] === 'off') {
 		return;
 	}
 	const rule = allRules.get(key);
