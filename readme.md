@@ -127,6 +127,7 @@ Rule|Value|Description
 Rule|Value|Description
 ----|----|----
 [no-delete-var](https://eslint.org/docs/rules/no-delete-var)||disallow deleting variables
+[no-restricted-globals](https://eslint.org/docs/rules/no-restricted-globals)|event|disallow specified global variables
 [no-undef](https://eslint.org/docs/rules/no-undef)||disallow the use of undeclared variables unless mentioned in `/*global */` comments
 [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)||disallow unused variables
 [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)||disallow the use of variables before they are defined

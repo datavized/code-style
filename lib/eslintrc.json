@@ -39,6 +39,7 @@
 		"no-misleading-character-class": 2,
 		"no-new": 2,
 		"no-plusplus": 0,
+		"no-restricted-globals": ["error", "event"],
 		"no-undef": 2,
 		"no-unused-vars": 2,
 		"no-use-before-define": [ 2, { "functions": false } ],
@@ -53,6 +54,5 @@
 		"strict": 1,
 		"valid-typeof": 2,
 		"wrap-iife": [ 2, "any" ]
-
 	}
 }
