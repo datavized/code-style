@@ -112,7 +112,7 @@ Rule|Value|Description
 [no-func-assign](https://eslint.org/docs/rules/no-func-assign)||disallow reassigning `function` declarations
 [no-inner-declarations](https://eslint.org/docs/rules/no-inner-declarations)||disallow variable or `function` declarations in nested blocks
 [no-invalid-regexp](https://eslint.org/docs/rules/no-invalid-regexp)||disallow invalid regular expression strings in `RegExp` constructors
-[no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)||disallow irregular whitespace outside of strings and comments
+[no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)||disallow irregular whitespace
 [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)||disallow characters which are made with multiple code points in character class syntax
 [no-obj-calls](https://eslint.org/docs/rules/no-obj-calls)||disallow calling global object properties as functions
 [no-regex-spaces](https://eslint.org/docs/rules/no-regex-spaces)||disallow multiple spaces in regular expressions
