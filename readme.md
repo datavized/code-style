@@ -63,7 +63,7 @@ Rule|Value|Description
 [no-implied-eval](https://eslint.org/docs/rules/no-implied-eval)||disallow the use of `eval()`-like methods
 [no-invalid-this](https://eslint.org/docs/rules/no-invalid-this)||disallow `this` keywords outside of classes or class-like objects
 [no-iterator](https://eslint.org/docs/rules/no-iterator)||disallow the use of the `__iterator__` property
-[no-loop-func](https://eslint.org/docs/rules/no-loop-func)||disallow `function` declarations and expressions inside loop statements
+[no-loop-func](https://eslint.org/docs/rules/no-loop-func)||disallow function declarations that contain unsafe references inside loop statements
 [no-multi-str](https://eslint.org/docs/rules/no-multi-str)||disallow multiline strings
 [no-new](https://eslint.org/docs/rules/no-new)||disallow `new` operators outside of assignments or comparisons
 [no-new-func](https://eslint.org/docs/rules/no-new-func)||disallow `new` operators with the `Function` object
@@ -72,6 +72,7 @@ Rule|Value|Description
 [no-self-assign](https://eslint.org/docs/rules/no-self-assign)||disallow assignments where both sides are exactly the same
 [no-sequences](https://eslint.org/docs/rules/no-sequences)||disallow comma operators
 [no-unused-labels](https://eslint.org/docs/rules/no-unused-labels)||disallow unused labels
+[no-useless-catch](https://eslint.org/docs/rules/no-useless-catch)||disallow unnecessary `catch` clauses
 [no-useless-escape](https://eslint.org/docs/rules/no-useless-escape)||disallow unnecessary escape characters
 [no-with](https://eslint.org/docs/rules/no-with)||disallow `with` statements
 [require-await](https://eslint.org/docs/rules/require-await)||disallow async functions which have no `await` expression
@@ -115,6 +116,7 @@ Rule|Value|Description
 [no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)||disallow irregular whitespace
 [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)||disallow characters which are made with multiple code points in character class syntax
 [no-obj-calls](https://eslint.org/docs/rules/no-obj-calls)||disallow calling global object properties as functions
+[no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins)||disallow calling some `Object.prototype` methods directly on objects
 [no-regex-spaces](https://eslint.org/docs/rules/no-regex-spaces)||disallow multiple spaces in regular expressions
 [no-sparse-arrays](https://eslint.org/docs/rules/no-sparse-arrays)||disallow sparse arrays
 [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)||disallow confusing multiline expressions
@@ -129,6 +131,7 @@ Rule|Value|Description
 ----|----|----
 [no-delete-var](https://eslint.org/docs/rules/no-delete-var)||disallow deleting variables
 [no-restricted-globals](https://eslint.org/docs/rules/no-restricted-globals)|event|disallow specified global variables
+[no-shadow-restricted-names](https://eslint.org/docs/rules/no-shadow-restricted-names)||disallow identifiers from shadowing restricted names
 [no-undef](https://eslint.org/docs/rules/no-undef)||disallow the use of undeclared variables unless mentioned in `/*global */` comments
 [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)||disallow unused variables
 [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)||disallow the use of variables before they are defined
