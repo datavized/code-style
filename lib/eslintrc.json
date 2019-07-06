@@ -28,7 +28,6 @@
 		"no-async-promise-executor": 2,
 		"no-bitwise": 2,
 		"no-caller": 2,
-		"no-console": 0,
 		"no-extend-native": 2,
 		"no-extra-parens": 1,
 		"no-global-assign": 2,
