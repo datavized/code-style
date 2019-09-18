@@ -1,6 +1,6 @@
 {
   "name": "datavized-code-style",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -22,12 +22,13 @@
     "lib"
   ],
   "dependencies": {
-    "eslint-config-crockford": "^2.0.0"
+    "eslint-config-crockford": "^2.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.2.2",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint": "^6.4.0"
   },
   "peerDependencies": {
     "eslint": "^6.2.2",

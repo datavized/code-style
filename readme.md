@@ -46,6 +46,7 @@ Rule|Value|Description
 ### Best Practices
 Rule|Value|Description
 ----|----|----
+[babel/no-invalid-this](https://eslint.org/docs/rules/babel/no-invalid-this)||disallow `this` keywords outside of classes or class-like objects
 [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var)||enforce the use of variables within the scope they are defined
 [consistent-return](https://eslint.org/docs/rules/consistent-return)||require `return` statements to either always or never specify values
 [curly](https://eslint.org/docs/rules/curly)||enforce consistent brace style for all control statements
@@ -61,7 +62,6 @@ Rule|Value|Description
 [no-global-assign](https://eslint.org/docs/rules/no-global-assign)||disallow assignments to native objects or read-only global variables
 [no-implicit-globals](https://eslint.org/docs/rules/no-implicit-globals)||disallow variable and `function` declarations in the global scope
 [no-implied-eval](https://eslint.org/docs/rules/no-implied-eval)||disallow the use of `eval()`-like methods
-[no-invalid-this](https://eslint.org/docs/rules/no-invalid-this)||disallow `this` keywords outside of classes or class-like objects
 [no-iterator](https://eslint.org/docs/rules/no-iterator)||disallow the use of the `__iterator__` property
 [no-loop-func](https://eslint.org/docs/rules/no-loop-func)||disallow function declarations that contain unsafe references inside loop statements
 [no-multi-str](https://eslint.org/docs/rules/no-multi-str)||disallow multiline strings
