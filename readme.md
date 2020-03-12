@@ -60,7 +60,7 @@ Rule|Value|Description
 [no-extend-native](https://eslint.org/docs/rules/no-extend-native)||disallow extending native types
 [no-fallthrough](https://eslint.org/docs/rules/no-fallthrough)||disallow fallthrough of `case` statements
 [no-global-assign](https://eslint.org/docs/rules/no-global-assign)||disallow assignments to native objects or read-only global variables
-[no-implicit-globals](https://eslint.org/docs/rules/no-implicit-globals)||disallow variable and `function` declarations in the global scope
+[no-implicit-globals](https://eslint.org/docs/rules/no-implicit-globals)||disallow declarations in the global scope
 [no-implied-eval](https://eslint.org/docs/rules/no-implied-eval)||disallow the use of `eval()`-like methods
 [no-iterator](https://eslint.org/docs/rules/no-iterator)||disallow the use of the `__iterator__` property
 [no-loop-func](https://eslint.org/docs/rules/no-loop-func)||disallow function declarations that contain unsafe references inside loop statements
