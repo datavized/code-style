@@ -75,6 +75,7 @@ Rule|Value|Description
 [no-useless-catch](https://eslint.org/docs/rules/no-useless-catch)||disallow unnecessary `catch` clauses
 [no-useless-escape](https://eslint.org/docs/rules/no-useless-escape)||disallow unnecessary escape characters
 [no-with](https://eslint.org/docs/rules/no-with)||disallow `with` statements
+[radix](https://eslint.org/docs/rules/radix)||enforce the consistent use of the radix argument when using `parseInt()`
 [require-await](https://eslint.org/docs/rules/require-await)||disallow async functions which have no `await` expression
 [vars-on-top](https://eslint.org/docs/rules/vars-on-top)||require `var` declarations be placed at the top of their containing scope
 [wrap-iife](https://eslint.org/docs/rules/wrap-iife)|any|require parentheses around immediate `function` invocations

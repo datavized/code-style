@@ -50,6 +50,7 @@
 		"one-var-declaration-per-line": 1,
 		"prefer-const": 1,
 		"quotes": [ 2, "single", { "allowTemplateLiterals": true } ],
+		"radix": 2,
 		"require-atomic-updates": 2,
 		"require-await": 2,
 		"space-before-function-paren": [ "error", { "anonymous": "always", "named": "never", "asyncArrow": "always" } ],
