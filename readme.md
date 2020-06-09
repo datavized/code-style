@@ -103,6 +103,7 @@ Rule|Value|Description
 [no-control-regex](https://eslint.org/docs/rules/no-control-regex)||disallow control characters in regular expressions
 [no-debugger](https://eslint.org/docs/rules/no-debugger)||disallow the use of `debugger`
 [no-dupe-args](https://eslint.org/docs/rules/no-dupe-args)||disallow duplicate arguments in `function` definitions
+[no-dupe-else-if](https://eslint.org/docs/rules/no-dupe-else-if)||disallow duplicate conditions in if-else-if chains
 [no-dupe-keys](https://eslint.org/docs/rules/no-dupe-keys)||disallow duplicate keys in object literals
 [no-duplicate-case](https://eslint.org/docs/rules/no-duplicate-case)||disallow duplicate case labels
 [no-empty](https://eslint.org/docs/rules/no-empty)||disallow empty block statements
@@ -112,6 +113,7 @@ Rule|Value|Description
 [no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)||disallow unnecessary parentheses
 [no-extra-semi](https://eslint.org/docs/rules/no-extra-semi)||disallow unnecessary semicolons
 [no-func-assign](https://eslint.org/docs/rules/no-func-assign)||disallow reassigning `function` declarations
+[no-import-assign](https://eslint.org/docs/rules/no-import-assign)||disallow assigning to imported bindings
 [no-inner-declarations](https://eslint.org/docs/rules/no-inner-declarations)||disallow variable or `function` declarations in nested blocks
 [no-invalid-regexp](https://eslint.org/docs/rules/no-invalid-regexp)||disallow invalid regular expression strings in `RegExp` constructors
 [no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)||disallow irregular whitespace
@@ -119,6 +121,7 @@ Rule|Value|Description
 [no-obj-calls](https://eslint.org/docs/rules/no-obj-calls)||disallow calling global object properties as functions
 [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins)||disallow calling some `Object.prototype` methods directly on objects
 [no-regex-spaces](https://eslint.org/docs/rules/no-regex-spaces)||disallow multiple spaces in regular expressions
+[no-setter-return](https://eslint.org/docs/rules/no-setter-return)||disallow returning values from setters
 [no-sparse-arrays](https://eslint.org/docs/rules/no-sparse-arrays)||disallow sparse arrays
 [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)||disallow confusing multiline expressions
 [no-unreachable](https://eslint.org/docs/rules/no-unreachable)||disallow unreachable code after `return`, `throw`, `continue`, and `break` statements
