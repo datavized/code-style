@@ -12,7 +12,7 @@ const categoryOrder = {
 	'Best Practices': 1,
 	'ECMAScript 6': 2,
 	'Possible Errors': 3,
-	'Variables': 4,
+	Variables: 4,
 	'Strict Mode': 5
 };
 

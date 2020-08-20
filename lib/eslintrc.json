@@ -17,6 +17,7 @@
 		"babel/no-invalid-this": 1,
 		"block-scoped-var": 2,
 		"camelcase": 2,
+		"quote-props": ["warn", "as-needed"],
 		"consistent-return": 1,
 		"curly": 2,
 		"eol-last": [ "off" ],

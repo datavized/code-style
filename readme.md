@@ -35,6 +35,7 @@ Rule|Value|Description
 [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)||disallow dangling underscores in identifiers
 [one-var](https://eslint.org/docs/rules/one-var)|never|enforce variables to be declared either together or separately in functions
 [one-var-declaration-per-line](https://eslint.org/docs/rules/one-var-declaration-per-line)||require or disallow newlines around variable declarations
+[quote-props](https://eslint.org/docs/rules/quote-props)|as-needed|require quotes around object literal property names
 [quotes](https://eslint.org/docs/rules/quotes)|single|enforce the consistent use of either backticks, double, or single quotes
 [semi](https://eslint.org/docs/rules/semi)||require or disallow semicolons instead of ASI
 [semi-spacing](https://eslint.org/docs/rules/semi-spacing)||enforce consistent spacing before and after semicolons
