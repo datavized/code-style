@@ -89,6 +89,7 @@ Rule|Value|Description
 [no-dupe-class-members](https://eslint.org/docs/rules/no-dupe-class-members)||disallow duplicate class members
 [no-new-symbol](https://eslint.org/docs/rules/no-new-symbol)||disallow `new` operators with the `Symbol` object
 [no-this-before-super](https://eslint.org/docs/rules/no-this-before-super)||disallow `this`/`super` before calling `super()` in constructors
+[no-useless-computed-key](https://eslint.org/docs/rules/no-useless-computed-key)||disallow unnecessary computed property keys in objects and classes
 [no-var](https://eslint.org/docs/rules/no-var)||require `let` or `const` instead of `var`
 [prefer-const](https://eslint.org/docs/rules/prefer-const)||require `const` declarations for variables that are never reassigned after declared
 [require-yield](https://eslint.org/docs/rules/require-yield)||require generator functions to contain `yield`
