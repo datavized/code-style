@@ -18,6 +18,7 @@
 		"block-scoped-var": 2,
 		"camelcase": 2,
 		"quote-props": ["warn", "as-needed"],
+		"no-useless-computed-key": ["error", { "enforceForClassMembers": true }],
 		"consistent-return": 1,
 		"curly": 2,
 		"eol-last": [ "off" ],
