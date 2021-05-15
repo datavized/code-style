@@ -22,13 +22,13 @@
     "lib"
   ],
   "dependencies": {
+    "@babel/eslint-parser": "^7.14.2",
+    "@babel/eslint-plugin": "^7.13.16",
     "eslint-config-crockford": "^2.0.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.14.2",
-    "@babel/eslint-plugin": "^7.13.16",
     "eslint": "^7.18.0"
   },
   "peerDependencies": {
