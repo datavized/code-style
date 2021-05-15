@@ -1,20 +1,20 @@
 {
 	"plugins": [
 		"import",
-		"babel"
+		"@babel"
 	],
 	"extends": [
 		"eslint:recommended",
 		"eslint-config-crockford"
 	],
-	"parser": "babel-eslint",
+	"parser": "@babel/eslint-parser",
 	"parserOptions": {
-		"sourceType": "module",
 		"ecmaVersion": 6,
-		"allowImportExportEverywhere": true
+		"allowImportExportEverywhere": false,
+		"requireConfigFile": false
 	},
 	"rules": {
-		"babel/no-invalid-this": 1,
+		"@babel/no-invalid-this": 1,
 		"block-scoped-var": 2,
 		"camelcase": 2,
 		"quote-props": ["warn", "as-needed"],
