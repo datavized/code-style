@@ -1,7 +1,7 @@
 {
   "name": "datavized-code-style",
   "version": "0.11.0",
-  "description": "",
+  "description": "Code style for Datavized projects: Deprecated , remove this dep from projects!",
   "main": "lib/index.js",
   "scripts": {
     "test": "eslint ./",
@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "6.8.0"
   },
   "peerDependencies": {
     "eslint": "^7.11.0"
